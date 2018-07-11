@@ -12,5 +12,5 @@ with open(sys.argv[1],'r') as f:
 echo "Hey. he110 world" > f1.txt
 python replace.py f1.txt f2.txt he110 hello
 cat f2.txt
-rm f1.txt f2.txt
+rm f1.txt f2.txt replace.py
 '''
