@@ -30,7 +30,7 @@ if os.path.exists(main):
     rc, out = commands.getstatusoutput(main)  
     print 'rc = %d, \nout = %s' % (rc, out)  
     #or 
-    #rc= commands.getoutput(main).split(",") # return values as a list
+    #rc= commands.getoutput(main).split(",") # return values as a string and split it into list
   
 print '*'*10  
 f = os.popen(main)    #execute and return values as a file.
